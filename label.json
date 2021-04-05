@@ -1,0 +1,24 @@
+{
+    "eth": [
+        "dst", "src"
+    ],
+    "ip": [
+        "dsfield", "len", "id", "flags", "ttl", "proto", "checksum", "src", "dst"
+    ],
+    "udp": [
+        "srcport", "dstport", "length", "checksum", "checksum.status", "stream",
+        "time_relative", "time_delta"
+    ],
+    "tcp": [
+        "srcport", "dstport", "stream", "len", "seq", "seq_raw", "ack", "ack_row",
+        "hdr_len", "window_size_value", "window_size", "checksum", "urgent_pointer",
+        "time_relative", "time_delta", "payload"
+    ],
+    "dns": [
+        "id", "flags", "count.queries", "count.answers", "count.auth_rr", "count.add_rr",
+        "qry.name", "qry.name.len", "count.labels", "qry.type", "qry.class"
+    ],
+    "tls": [
+        "record.content_type", "version", "length", "change_cipher_spec"
+    ]
+}
