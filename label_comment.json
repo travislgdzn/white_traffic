@@ -1,0 +1,70 @@
+{
+    "eth": {
+        "dst" : "desination hardware adress", 
+        "src" : "source hardware adress"
+    },
+
+    "ip": {
+        "dsfield" : "differentiated services feild",
+        "len" : "total length",
+        "id" : "identification",
+        "flags" : "",
+        "ttl" : "",
+        "proto" : "protocol, 比如tcp基于ip协议，这此处为tcp",
+        "checksum" : "校验和",
+        "src" : "",
+        "dst" : "",
+        "help_url" : "https://www.wireshark.org/docs/dfref/i/ip.html"
+    },
+    "udp": {
+        "srcport" : "",
+        "dstport" : "",
+        "length" : "",
+        "checksum" : "校验和 https://www.wireshark.org/docs/wsug_html_chunked/ChAdvChecksums.html",
+        "checksum.status" : "",
+        "stream" : "Stream index",
+        "time_relative" : "Time since first frame",
+        "time_delta" : "Time since previous frame",
+        "help_url" : "https://www.wireshark.org/docs/dfref/u/udp.html"
+    },
+    "tcp": {
+        "srcport" : "",
+        "dstport" : "",
+        "stream" : "",
+        "len" : "",
+        "seq" : "",
+        "seq_raw" : "",
+        "ack" : "Acknowledgment Number",
+        "ack_row" : "Acknowledgment number (raw)",
+        "hdr_len" : "",
+        "window_size_value" : "Window",
+        "window_size" : "Calculated window size",
+        "checksum" : "",
+        "urgent_pointer" : "Urgent Pointer",
+        "time_relative" : "",
+        "time_delta" : "",
+        "payload" : "TCP payload(数据?)",
+        "help_url" : "https://www.wireshark.org/docs/dfref/t/tcp.html"
+    },
+    "dns": {
+        "id" : "Transaction ID",
+        "flags" : "",
+        "count.queries" : "Questions",
+        "count.answers" : "Answer RRs",
+        "count.auth_rr" : "Authority RRs",
+        "count.add_rr" : "",
+        "qry.name" : "查询的网站?",
+        "qry.name.len" : "",
+        "count.labels" : "",
+        "qry.type" : "", 
+        "qry.class" : "",
+        "help_url" : "https://www.wireshark.org/docs/dfref/d/dns.html"
+    },
+    "tls": {
+        "record.content_type" : "",
+        "version" : "",
+        "length" : "",
+        "change_cipher_spec" : "Change Cipher Spec Message",
+        "help_url" : "https://www.wireshark.org/docs/dfref/t/tls.html"
+    }
+}
