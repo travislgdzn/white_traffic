@@ -4,3 +4,4 @@ flow.tar
 test.pcap
 test.pcapng
 fields.json
+*.pcap

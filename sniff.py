@@ -4,7 +4,7 @@ import json
 
 
 class Sniffer:
-    def __init__(self, filedFile = "fields.json"):
+    def __init__(self, filedFile = "label.json"):
         self.fields_ = None
         self.packets_ = None
 
@@ -60,13 +60,13 @@ if __name__ == '__main__':
     sniffer = Sniffer()
 
     # begin capture packets and set count of packets to 10000  
-    # sniffer.Sniff(10000)
+    #sniffer.Sniff(10000)
     
     # write captured packets to pcapfile.pcap
-    # sniffer.W2pcap("pcapfile.pcap")
+    #sniffer.W2pcap("pcapfile.pcap")
 
     # convert test.pcap to test.csv
-    sniffer.pcap2csv("test.pcap", "test.csv")
+    sniffer.pcap2csv("pcapfile.pcap", "test.csv")
 
 
 

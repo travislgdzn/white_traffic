@@ -10,7 +10,7 @@
         "time_relative", "time_delta"
     ],
     "tcp": [
-        "srcport", "dstport", "stream", "len", "seq", "seq_raw", "ack", "ack_row",
+        "srcport", "dstport", "stream", "len", "seq", "seq_raw", "ack", "ack_raw",
         "hdr_len", "window_size_value", "window_size", "checksum", "urgent_pointer",
         "time_relative", "time_delta", "payload"
     ],
@@ -19,6 +19,6 @@
         "qry.name", "qry.name.len", "count.labels", "qry.type", "qry.class"
     ],
     "tls": [
-        "record.content_type", "version", "length", "change_cipher_spec"
+        "record.content_type", "record.version", "record.length", "change_cipher_spec"
     ]
 }

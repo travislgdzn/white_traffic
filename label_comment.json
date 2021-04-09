@@ -35,7 +35,7 @@
         "seq" : "",
         "seq_raw" : "",
         "ack" : "Acknowledgment Number",
-        "ack_row" : "Acknowledgment number (raw)",
+        "ack_raw" : "Acknowledgment number (raw)",
         "hdr_len" : "",
         "window_size_value" : "Window",
         "window_size" : "Calculated window size",
@@ -62,8 +62,8 @@
     },
     "tls": {
         "record.content_type" : "",
-        "version" : "",
-        "length" : "",
+        "record.version" : "",
+        "record.length" : "",
         "change_cipher_spec" : "Change Cipher Spec Message",
         "help_url" : "https://www.wireshark.org/docs/dfref/t/tls.html"
     }
